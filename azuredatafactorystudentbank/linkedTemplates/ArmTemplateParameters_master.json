@@ -1,0 +1,171 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredatafactorystudentbank"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageCopy_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageSQL_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_EXCEL_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_PARQUET_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageupload_accountKey": {
+			"value": ""
+		},
+		"LINKEDSERVICE_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_DESTINATION_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_MULTI_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_SRC_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_TGT_accountKey": {
+			"value": ""
+		},
+		"LS_MULTI_LOAD_accountKey": {
+			"value": ""
+		},
+		"LS_SQLDATA_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServer_password": {
+			"value": ""
+		},
+		"LS_SqlServerDATA_password": {
+			"value": ""
+		},
+		"LinkedServiceDestination_accountKey": {
+			"value": ""
+		},
+		"Linkedservice_key_copy_accountKey": {
+			"value": ""
+		},
+		"SqlServerSP_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorageCopy_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorageSQL_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage_EXCEL_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage_PARQUET_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorageupload_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LINKEDSERVICE_EXCEL_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"LS_DESTINATION_PARQUET_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LS_MULTI_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_CSV_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_SRC_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_TGT_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LS_MULTI_LOAD_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LS_SQLDATA_PARQUET_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LS_SqlServer_properties_typeProperties_server": {
+			"value": "\\\\.\\pipe\\MSSQL$SQLEXPRESS\\sql\\query"
+		},
+		"LS_SqlServer_properties_typeProperties_database": {
+			"value": "SALES"
+		},
+		"LS_SqlServer_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SqlServerDATA_properties_typeProperties_server": {
+			"value": "\\\\.\\pipe\\MSSQL$SQLEXPRESS\\sql\\query"
+		},
+		"LS_SqlServerDATA_properties_typeProperties_database": {
+			"value": "SALES"
+		},
+		"LS_SqlServerDATA_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LinkedServiceDestination_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"Linkedservice_key_copy_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net"
+		},
+		"SqlServerSP_properties_typeProperties_server": {
+			"value": "\\\\.\\pipe\\MSSQL$SQLEXPRESS\\sql\\query"
+		},
+		"SqlServerSP_properties_typeProperties_database": {
+			"value": "SALES"
+		},
+		"SqlServerSP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
