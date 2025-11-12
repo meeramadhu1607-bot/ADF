@@ -1,0 +1,29 @@
+{
+	"name": "LS_MULTIPLE_TGT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "destinationstoragebank"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "UTF8"
+			},
+			{
+				"name": "current_age",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

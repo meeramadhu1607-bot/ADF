@@ -1,0 +1,9 @@
+{
+	"name": "azuredatafactorystudentbank",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f814c93b-3ab2-4426-82bb-289a56b8d2da",
+		"tenantId": "1ccb8299-3a8e-4aa1-b044-87491366f150"
+	}
+}
