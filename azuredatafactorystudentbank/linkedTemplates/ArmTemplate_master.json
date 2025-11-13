@@ -43,9 +43,17 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LINKEDSERVICE_EXCEL'"
 		},
+		"LS_DESTINATION_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_DESTINATION'"
+		},
 		"LS_DESTINATION_PARQUET_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_DESTINATION_PARQUET'"
+		},
+		"LS_GETMETADATA_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_GETMETADATA'"
 		},
 		"LS_MULTI_accountKey": {
 			"type": "secureString",
@@ -135,9 +143,17 @@
 			"type": "string",
 			"defaultValue": "https://azurestoragestudentbank.dfs.core.windows.net/"
 		},
+		"LS_DESTINATION_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
 		"LS_DESTINATION_PARQUET_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LS_GETMETADATA_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://azurestoragestudentbank.dfs.core.windows.net/"
 		},
 		"LS_MULTI_properties_typeProperties_url": {
 			"type": "string",
@@ -269,8 +285,14 @@
 					"LINKEDSERVICE_EXCEL_accountKey": {
 						"value": "[parameters('LINKEDSERVICE_EXCEL_accountKey')]"
 					},
+					"LS_DESTINATION_accountKey": {
+						"value": "[parameters('LS_DESTINATION_accountKey')]"
+					},
 					"LS_DESTINATION_PARQUET_accountKey": {
 						"value": "[parameters('LS_DESTINATION_PARQUET_accountKey')]"
+					},
+					"LS_GETMETADATA_accountKey": {
+						"value": "[parameters('LS_GETMETADATA_accountKey')]"
 					},
 					"LS_MULTI_accountKey": {
 						"value": "[parameters('LS_MULTI_accountKey')]"
@@ -295,9 +317,6 @@
 					},
 					"LinkedServiceDestination_accountKey": {
 						"value": "[parameters('LinkedServiceDestination_accountKey')]"
-					},
-					"Linkedservice_key_copy_accountKey": {
-						"value": "[parameters('Linkedservice_key_copy_accountKey')]"
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
@@ -326,8 +345,14 @@
 					"LINKEDSERVICE_EXCEL_properties_typeProperties_url": {
 						"value": "[parameters('LINKEDSERVICE_EXCEL_properties_typeProperties_url')]"
 					},
+					"LS_DESTINATION_properties_typeProperties_url": {
+						"value": "[parameters('LS_DESTINATION_properties_typeProperties_url')]"
+					},
 					"LS_DESTINATION_PARQUET_properties_typeProperties_url": {
 						"value": "[parameters('LS_DESTINATION_PARQUET_properties_typeProperties_url')]"
+					},
+					"LS_GETMETADATA_properties_typeProperties_url": {
+						"value": "[parameters('LS_GETMETADATA_properties_typeProperties_url')]"
 					},
 					"LS_MULTI_properties_typeProperties_url": {
 						"value": "[parameters('LS_MULTI_properties_typeProperties_url')]"
@@ -352,9 +377,6 @@
 					},
 					"LinkedServiceDestination_properties_typeProperties_url": {
 						"value": "[parameters('LinkedServiceDestination_properties_typeProperties_url')]"
-					},
-					"Linkedservice_key_copy_properties_typeProperties_url": {
-						"value": "[parameters('Linkedservice_key_copy_properties_typeProperties_url')]"
 					}
 				}
 			},
@@ -374,6 +396,9 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"Linkedservice_key_copy_accountKey": {
+						"value": "[parameters('Linkedservice_key_copy_accountKey')]"
+					},
 					"LS_SQL_PARQUET_accountKey": {
 						"value": "[parameters('LS_SQL_PARQUET_accountKey')]"
 					},
@@ -385,6 +410,9 @@
 					},
 					"SqlServerSP_password": {
 						"value": "[parameters('SqlServerSP_password')]"
+					},
+					"Linkedservice_key_copy_properties_typeProperties_url": {
+						"value": "[parameters('Linkedservice_key_copy_properties_typeProperties_url')]"
 					},
 					"LS_SQL_PARQUET_properties_typeProperties_url": {
 						"value": "[parameters('LS_SQL_PARQUET_properties_typeProperties_url')]"

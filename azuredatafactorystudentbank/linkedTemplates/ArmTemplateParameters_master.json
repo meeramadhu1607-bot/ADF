@@ -32,7 +32,13 @@
 		"LINKEDSERVICE_EXCEL_accountKey": {
 			"value": ""
 		},
+		"LS_DESTINATION_accountKey": {
+			"value": ""
+		},
 		"LS_DESTINATION_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_GETMETADATA_accountKey": {
 			"value": ""
 		},
 		"LS_MULTI_accountKey": {
@@ -101,8 +107,14 @@
 		"LINKEDSERVICE_EXCEL_properties_typeProperties_url": {
 			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
 		},
+		"LS_DESTINATION_properties_typeProperties_url": {
+			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
 		"LS_DESTINATION_PARQUET_properties_typeProperties_url": {
 			"value": "https://azurestoragesuploadbank.dfs.core.windows.net/"
+		},
+		"LS_GETMETADATA_properties_typeProperties_url": {
+			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
 		},
 		"LS_MULTI_properties_typeProperties_url": {
 			"value": "https://azurestoragestudentbank.dfs.core.windows.net/"
